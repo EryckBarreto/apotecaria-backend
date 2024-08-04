@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 
 const UserModelSchema = new mongoose.Schema({
-    completeUserName:    { type: String, required: true },
+    completeNameUser:    { type: String, required: true },
     emailUser:           { type: String, required: true, unique: true },
     phoneUser:           { type: String, required: true },
     cpfUser:             { type: String, required: true, unique: true },
-    dateOfBirthUser:     { type: Date,   required: true },
+    dateOfBirthUser:     { type: String, required: true },
     passwordUser:        { type: String, required: true },
 });
 
