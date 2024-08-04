@@ -4,8 +4,8 @@ const cors = require('cors');
 const routes = require('../api');
 
 module.exports = async ({ app }) => {
-    app.get('/status', (req, res) => res.status(200).end());
-    app.head('/status', (req, res) => res.status(200).end());
+    app.get('/status', (req, res) => res.status(200).send('Serviço em funcionamento.'));
+    app.head('/status', (req, res) => res.status(200).send('Serviço em funcionamento.'));
 
     app.enable('trust proxy');
 
