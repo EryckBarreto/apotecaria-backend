@@ -8,7 +8,10 @@ router.post('/signup', validateUserSignup, async (req, res, next) => {
     try {
         const userDTO = req.body;
         const { user } = await userService.signup(userDTO);
-        return res.json({ user });
+
+        delete user.passwordUser;
+
+        return res.status(201).json({ user });
     } catch (error) {
         next(error);
     }
