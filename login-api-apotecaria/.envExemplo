@@ -1,0 +1,5 @@
+PORT=Numero da porta que você quer usar
+MONGODB_URI=Se estiver usando o mongo atlas, só copiar o link gerado no site para cá
+JWT_SECRET=Senha que você vai usar no jwt
+
+Qualquer dúvida pode entrar em contato comigo no Linkedin https://www.linkedin.com/in/EryckBarreto
