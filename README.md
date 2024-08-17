@@ -1,6 +1,5 @@
-# 🛠️ Projeto de API de Usuários com 
+# 🛠️ Projeto de API de Usuários com Express.js e MongoDB
 
-Express.js e MongoDB
 Este projeto é uma API de gerenciamento de usuários construída utilizando Express.js e MongoDB. A API permite o cadastro, autenticação e gerenciamento de usuários, com validação de dados e segurança de senha implementadas.
 
 ## 🚀 Tecnologias Utilizadas
