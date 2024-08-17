@@ -55,11 +55,11 @@ Antes de rodar o projeto, certifique-se de ter as seguintes ferramentas instalad
 ### Clone o repositório
 
 ```sh
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/EryckBarreto/apotecaria-backend
 ```
 
 ```sh
-cd nome-do-repositorio
+cd apotecaria-backend
 ```
 
 
